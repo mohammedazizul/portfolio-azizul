@@ -9,7 +9,7 @@ const NavBar = () => {
         <nav className="navbar navbar-expand-lg navbar-light bg-dark">
             <div className="container">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="#">
+                    <a className="navbar-brand" href="">
                         <img className="logoImage" src={maLogo} alt="ma logo"/>
                     </a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,22 +20,22 @@ const NavBar = () => {
                         <ul className="navbar-nav ml-auto">
 
                             <li className="nav-item">
-                                <a className="nav-link active navLink" aria-current="page" href="#">Home</a>
+                                <a className="nav-link active navLink" aria-current="page" href="">Home</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link navLink" href="#">Projects</a>
+                                <a className="nav-link navLink" href="">Projects</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link navLink" href="#">Blogs</a>
+                                <a className="nav-link navLink" href="">Blogs</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link navLink" href="#">Resume</a>
+                                <a className="nav-link navLink" href="">Resume</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link navLink" href="#">About</a>
+                                <a className="nav-link navLink" href="">About</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link navLink" href="#">Contacts</a>
+                                <a className="nav-link navLink" href="">Contacts</a>
                             </li>
 
                         </ul>
