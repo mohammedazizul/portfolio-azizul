@@ -4,6 +4,21 @@
     height: 5rem;
 }
 
+/* to handle responsiveness */
+@media(max-width: 768px) {
+    .navbar-brand {
+        max-width: 7rem;
+    }
+    .logoImage {
+
+    }
+    
+}
+
+.navbar {
+    z-index: 2;
+}
+
 .navLink {
     font-weight: 500;
     letter-spacing: .25rem;

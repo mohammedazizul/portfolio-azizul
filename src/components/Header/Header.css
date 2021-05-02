@@ -1,0 +1,62 @@
+ /* importing google fonts  */
+ @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+ 
+.header-wrapper {
+    position: relative;
+    background: url(../../images/keyBoardCoffee.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+
+.main-info {
+    display: flex;
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+  
+.main-info > h1 {
+    font-family: "Roboto Condensed", sans-serif;
+    color: steelblue;
+    text-transform: uppercase;
+}
+
+/* to handle responsiveness */
+@media(max-width: 768px) {
+    .main-info > h1 {
+        font-size: 2rem;
+    }
+    .typed-text {
+        font-size: 1.7rem;
+    }
+}
+
+.typed-text {
+    font-size: 2rem;
+    color: white;
+}
+
+.btn-main-offer {
+    border: 1px solid #f33501;
+    text-transform: uppercase;
+    border-radius: 0;
+    padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+    color: white;
+    margin: 2rem;
+}
+
+.btn-main-offer:hover {
+    text-decoration: none;
+    background-color: steelblue;
+    color: steelblue;
+    transition: .2s ease-in-out;
+}
+
