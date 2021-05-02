@@ -29,7 +29,10 @@ const NavBar = () => {
                                 <a className="nav-link navLink" href="/#">Blogs</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link navLink" href="/#">Resume</a>
+                                <a className="nav-link navLink" 
+                                href="https://drive.google.com/file/d/1qsW49OYoUompz2bD0XIOxLbmTODTuPzC/view?usp=sharing" 
+                                download
+                                >Resume</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link navLink" href="/#">About</a>

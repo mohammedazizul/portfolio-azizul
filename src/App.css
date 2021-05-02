@@ -13,11 +13,11 @@ body{
   z-index: 1;
 }
 /* to hide the particles */
-@media(max-width: 768px) {
+/* @media(max-width: 768px) {
     .particles-canvas {
       display: none;
     }
-}
+} */
 
 .App {
   text-align: center;

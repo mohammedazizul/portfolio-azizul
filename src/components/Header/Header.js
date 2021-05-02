@@ -6,16 +6,19 @@ const Header = () => {
     return (
         <div className="header-wrapper">
             <div className="main-info">
-                <h1>web development and websites promotions</h1>
+                <h1>Mohammed Azizul Hoque Sheikh</h1>
                 {/* react-typed added  */}
                 <Typed 
                     className="typed-text"
-                    strings={["Web Design", "Web Development", "Problem Solving"]}
+                    strings={["Web Developer","Programmer","Full Stack Developer"]}
                     typeSpeed={40}
                     backSpeed={60}
                     loop
                 />
-                <a href="/#" className="btn-main-offer">contact me</a>
+                <a 
+                href="mailto:mohammedazizulhoquesheikh@gmail.com" 
+                className="btn-main-offer" 
+                >contact me</a>
             </div>
         </div>
     );
