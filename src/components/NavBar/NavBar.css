@@ -1,0 +1,26 @@
+.logoImage {
+    margin-top: 0.5rem;
+    width: 5rem;
+    height: 5rem;
+}
+
+.navLink {
+    font-weight: 500;
+    letter-spacing: .25rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: white !important;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    border-top: 0.1875rem solid rgba(255,255,255,0);
+}
+
+.navLink:hover, .navLink:focus {
+    border-top: 0.1875rem solid steelblue;
+}
+
+.navbar-brand {
+    max-width: 17.25rem;
+    padding: 0 !important;
+    height: 6rem;
+}
