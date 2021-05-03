@@ -1,0 +1,62 @@
+.blog-wrapper {
+    position: relative;
+    background: url(../../images/coming-soon.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+
+.blog-info {
+    display: flex;
+    position:absolute;
+    top: 10rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+  
+.blog-info > h1 {
+    font-family: "Roboto Condensed", sans-serif;
+    color: steelblue;
+    text-transform: uppercase;
+}
+
+.typed-text {
+    font-size: 2rem;
+    color: white;
+}
+
+.btn-blog {
+    border: 1px solid steelblue;
+    text-transform: uppercase;
+    border-radius: 0;
+    padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+    color: steelblue;
+    margin: 2rem;
+    z-index: +1;
+}
+
+.btn-blog:hover {
+    text-decoration: none;
+    color: steelblue;
+    transition: .2s ease-in-out;
+}
+
+/* to handle responsiveness */
+@media(max-width: 768px) {
+    .blog-wrapper {
+        background-position: left;
+        height: 90vh;
+    }
+    .blog-info > h1 {
+        font-size: 2rem;
+    }
+    .typed-text {
+        font-size: 1.7rem;
+    }
+}

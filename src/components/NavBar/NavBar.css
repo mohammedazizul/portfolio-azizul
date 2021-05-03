@@ -1,7 +1,7 @@
 .logoImage {
-    margin-top: 0.5rem;
-    width: 5rem;
-    height: 5rem;
+    margin-top: 0rem;
+    width: 4rem;
+    height: 4rem;
 }
 
 /* to handle responsiveness */
@@ -37,5 +37,5 @@
 .navbar-brand {
     max-width: 17.25rem;
     padding: 0 !important;
-    height: 6rem;
+    height: 4rem;
 }
