@@ -1,12 +1,9 @@
-.blog-wrapper {
-    position: relative;
-    background: url(../../images/coming-soon.jpg) no-repeat;
-    background-size: cover;
-    background-position: left;
+.resume-wrapper {
+    background-color: gainsboro;
     height: 90vh;
 }
 
-.blog-info {
+.resume-info {
     display: flex;
     position:absolute;
     top: 10rem;
@@ -20,7 +17,7 @@
 }
 
   
-.blog-info > h1 {
+.resume-info > h1 {
     font-family: "Roboto Condensed", sans-serif;
     color: steelblue;
     text-transform: uppercase;
@@ -31,7 +28,7 @@
     color: white;
 }
 
-.btn-blog {
+.btn-resume-download {
     border: 1px solid steelblue;
     text-transform: uppercase;
     border-radius: 0;
@@ -41,7 +38,7 @@
     z-index: +1;
 }
 
-.btn-blog:hover {
+.btn-resume-download:hover {
     text-decoration: none;
     color: steelblue;
     transition: .2s ease-in-out;
@@ -49,7 +46,7 @@
 
 /* to handle responsiveness */
 @media(max-width: 768px) {
-    .blog-info > h1 {
+    .resume-info > h1 {
         font-size: 2rem;
     }
     .typed-text {

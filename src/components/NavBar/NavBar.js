@@ -23,20 +23,19 @@ const NavBar = () => {
                                 <a className="nav-link active navLink" aria-current="page" href="/#">Home</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link navLink" href="/#">Projects</a>
+                                <a className="nav-link navLink" href="/projects">Projects</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link navLink" href="/blogs">Blogs</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link navLink" 
-                                href="https://drive.google.com/file/d/1qsW49OYoUompz2bD0XIOxLbmTODTuPzC/view?usp=sharing" 
-                                download
+                                href="/resume"
                                 >Resume</a>
                             </li>
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <a className="nav-link navLink" href="/#">About</a>
-                            </li>
+                            </li> */}
                             <li className="nav-item">
                                 <a className="nav-link navLink" href="/#">Contacts</a>
                             </li>

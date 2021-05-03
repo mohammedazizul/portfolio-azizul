@@ -9,6 +9,8 @@ import {
 import Home from './components/Home/Home';
 import Contact from './components/Contact/Contact';
 import Blogs from './components/Blogs/Blogs';
+import Resume from './components/Resume/Resume';
+import Projects from './components/Projects/Projects';
 
 function App() {
   return (
@@ -23,8 +25,17 @@ function App() {
           <Route path="/blogs">
             <Blogs />
           </Route>
+          <Route path="/resume">
+            <Resume />
+          </Route>
+          <Route path="/projects">
+            <Projects />
+          </Route>
           <Route exact path="/">
             <Home />
+          </Route>
+          <Route>
+            
           </Route>
         </Switch>
     </Router>
