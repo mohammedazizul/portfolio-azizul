@@ -16,6 +16,9 @@
  * React Router
  * React Hooks
  * React Particles Js
+ * React Email Js 
+ * React Toastify 
+ * React Hook Form
 * Bootstrap
 
 

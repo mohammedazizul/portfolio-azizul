@@ -1,37 +1,29 @@
 import './App.css';
 // adding bootstrap css file
 import 'bootstrap/dist/css/bootstrap.min.css';
-import NavBar from './components/NavBar/NavBar';
-import Header from './components/Header/Header';
-import Particles from 'react-particles-js';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+import Home from './components/Home/Home';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
-    <>
-      <Particles 
-      className="particles-canvas"
-      params={{
-        particles: {
-          number: {
-            value: 30,
-            density: {
-              enable: true,
-              value_area: 900
-            }
-          },
-          shape:{
-            type: "circle",
-            stroke: {
-              width: 6,
-              color: "#4682B4"
-            }
-          }
-        }
-      }}
-      />
-      <NavBar />
-      <Header />
-    </>
+    <Router>
+        <Switch>
+          <Route path="/home">
+            <Home />
+          </Route>
+          <Route path="/contact">
+            <Contact />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
+    </Router>
   );
 }
 
