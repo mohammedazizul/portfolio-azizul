@@ -1,6 +1,6 @@
 import React from 'react';
 import './Contact.css'
-import emailjs from 'emailjs-com';
+// import emailjs from 'emailjs-com';
 import NavBar from '../NavBar/NavBar';
 import azizulImage from '../../images/azizulImage.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
