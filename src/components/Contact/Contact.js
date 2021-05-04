@@ -31,6 +31,7 @@ const Contact = () => {
                   <h4>Mohammed Azizul Hoque Sheikh</h4>
                   <p className="title">Full Stack Developer | Programmer</p>
                   <p>University of Wollongong</p>
+                  {/* space for the logo */}
                   <div style={{margin: "24px 0"}}>
 
                     <a href="https://www.linkedin.com/in/mohammed-azizul-hoque-sheikh-2b5921210"
@@ -53,9 +54,9 @@ const Contact = () => {
                   </p>
                 </div>
               </div>
-
+              {/* right div  */}
               <div className="col">
-
+                {/* send email via email js */}
                 {/* <form className="contact-form" onSubmit={sendEmail}>
                   <input type="hidden" name="contact_number" />
                   <label>Name</label>

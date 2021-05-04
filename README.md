@@ -19,6 +19,7 @@
  * React Email Js 
  * React Toastify 
  * React Hook Form
+ * React Typed
 * Bootstrap
 
 

@@ -10,7 +10,7 @@ const Resume = () => {
             <NavBar/>
             <div className="resume-wrapper">
                 <div className="resume-info">
-
+                    {/* link to download resume file  */}
                     <a 
                     href="https://drive.google.com/file/d/1qsW49OYoUompz2bD0XIOxLbmTODTuPzC/view?usp=sharing" 
                     download 

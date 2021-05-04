@@ -11,6 +11,7 @@ import Contact from './components/Contact/Contact';
 import Blogs from './components/Blogs/Blogs';
 import Resume from './components/Resume/Resume';
 import Projects from './components/Projects/Projects';
+import NoMatch from './components/NoMatch/NoMatch';
 
 function App() {
   return (
@@ -34,8 +35,8 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
-          <Route>
-            
+          <Route path="/*">
+            <NoMatch />
           </Route>
         </Switch>
     </Router>
