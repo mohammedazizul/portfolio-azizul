@@ -20,7 +20,7 @@ const NavBar = () => {
                         <ul className="navbar-nav ml-auto">
 
                             <li className="nav-item">
-                                <a className="nav-link active navLink" aria-current="page" href="/#">Home</a>
+                                <a className="nav-link active navLink" aria-current="page" href="/home">Home</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link navLink" href="/projects">Projects</a>
@@ -37,7 +37,7 @@ const NavBar = () => {
                                 <a className="nav-link navLink" href="/#">About</a>
                             </li> */}
                             <li className="nav-item">
-                                <a className="nav-link navLink" href="/#">Contacts</a>
+                                <a className="nav-link navLink" href="/contact">Contacts</a>
                             </li>
 
                         </ul>
