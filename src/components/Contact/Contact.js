@@ -8,16 +8,16 @@ import { faGithubSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 const Contact = () => {
-    function sendEmail(e) {
-        e.preventDefault();
+    // function sendEmail(e) {
+    //     e.preventDefault();
     
-        emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID')
-          .then((result) => {
-              console.log(result.text);
-          }, (error) => {
-              console.log(error.text);
-          });
-      }
+    //     emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID')
+    //       .then((result) => {
+    //           console.log(result.text);
+    //       }, (error) => {
+    //           console.log(error.text);
+    //       });
+    //   }
     
       return (
         <div>
@@ -27,7 +27,7 @@ const Contact = () => {
               {/* PROFILE CARD  */}
               <div className="col">
                 <div className="card">
-                  <img src={azizulImage} alt="azizul image" style={{width:"100%"}}/>
+                  <img src={azizulImage} alt="azizul here" style={{width:"100%"}}/>
                   <h4>Mohammed Azizul Hoque Sheikh</h4>
                   <p className="title">Full Stack Developer | Programmer</p>
                   <p>University of Wollongong</p>
