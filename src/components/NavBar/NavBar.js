@@ -1,8 +1,9 @@
+import './NavBar.css';
 import React from 'react';
-import './NavBar.css'
-import { Container, Nav, Navbar } from 'react-bootstrap';
-import maLogo from '../../images/favicon_io/android-chrome-192x192.png'
 import { Link } from 'react-router-dom';
+import { Container, Nav, Navbar } from 'react-bootstrap';
+import maLogo from '../../images/favicon_io/android-chrome-192x192.png';
+
 
 const NavBar = () => {
     return (
@@ -20,11 +21,11 @@ const NavBar = () => {
 
                     </Nav>
                     <Nav>
-                        <Nav.Link href="/home">HOME</Nav.Link>
-                        <Nav.Link href="/projects">PROJECTS</Nav.Link>
-                        <Nav.Link href="/blogs">BLOGS</Nav.Link>
-                        <Nav.Link href="/resume">RESUME</Nav.Link>
-                        <Nav.Link href="/contact">CONTACT</Nav.Link>
+                        <Nav.Link href="/home" className="nav-links">HOME</Nav.Link>
+                        <Nav.Link href="/projects" className="nav-links">PROJECTS</Nav.Link>
+                        <Nav.Link href="/blogs" className="nav-links">BLOGS</Nav.Link>
+                        <Nav.Link href="/resume" className="nav-links">RESUME</Nav.Link>
+                        <Nav.Link href="/contact" className="nav-links">CONTACT</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
