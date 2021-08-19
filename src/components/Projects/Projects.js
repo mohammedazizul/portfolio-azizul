@@ -67,7 +67,7 @@ const Projects = () => {
                     rel="noreferrer"
                     className="btn-project" 
                     >
-                        click to visit <FontAwesomeIcon icon={faGithubSquare} size="lg" color="steelblue" />
+                        click to visit profile in <FontAwesomeIcon icon={faGithubSquare} size="lg" color="steelblue" />
                     </a>
                 </div>
             </div>

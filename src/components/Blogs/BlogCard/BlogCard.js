@@ -9,12 +9,21 @@ const BlogCard = (props) => {
     return (
         <Col>
             <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={image} style={{height:"200px", width:"auto"}}/>
+                <Card.Img 
+                style={{
+                    height:"200px", 
+                    width:"auto"}} 
+                    variant="top" 
+                    src={image} />
                 <Card.Body>
-                    <Card.Title>{title}</Card.Title>
+                    <Card.Title><b>{title}</b></Card.Title>
                     <Card.Text>{previewText}</Card.Text>
                     <Button 
-                    variant="primary" 
+                    style={{
+                        color: "steelBlue",
+                        border: "1px solid steelBlue"
+                    }}
+                    variant="" 
                     href={liveLink}
                     target="_blank"
                     >Click to visit</Button>

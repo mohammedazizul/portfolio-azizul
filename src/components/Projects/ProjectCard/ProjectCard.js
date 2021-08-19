@@ -12,14 +12,29 @@ const ProjectCard = (props) => {
             <Card>
                 <Card.Img variant="top" src={previewImage} style={{height:"200px", width:"auto"}}/>
                 <Card.Body>
-                <Card.Title>{prjName}</Card.Title>
-                <Card.Text>
-                    {details}
-                </Card.Text>
-                <Card.Link href={liveLink} target="_blank">Live Link</Card.Link>
-                {
-                    repoLink && <Card.Link href={repoLink} target="_blank">Repo Link</Card.Link>
-                }
+                    <Card.Title><b>{prjName}</b></Card.Title>
+                    <Card.Text>
+                        {details}
+                    </Card.Text>
+                    <Card.Link 
+                    href={liveLink} 
+                    target="_blank"
+                    style={{
+                        color:"steelBlue",
+                        borderBottom: "1px solid steelBlue"
+                    }}
+                    >Live Link</Card.Link>
+                    {/* condition if not available */}
+                    {
+                        repoLink && <Card.Link 
+                        href={repoLink} 
+                        target="_blank"
+                        style={{
+                            color:"steelBlue",
+                            borderBottom: "1px solid steelBlue"
+                        }}
+                        >Repo Link</Card.Link>
+                    }
                 </Card.Body>
             </Card>
         </Col>

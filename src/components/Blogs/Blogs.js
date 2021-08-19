@@ -8,6 +8,8 @@ import blog102 from '../../images/blog102.jpg';
 import blog103 from '../../images/blog103.jpg';
 import blog104 from '../../images/blog104.jpg';
 import blog105 from '../../images/blog105.jpg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 // data to preview blogs info
 const blogData = [
@@ -55,7 +57,9 @@ const Blogs = () => {
             <div className="blog-wrapper">
                 <Row xs={1} md={2} className="g-4">
                     {
-                        blogData.map(data => <BlogCard data={data} key={data.blogSl}/>)
+                        blogData.map(
+                            data => <BlogCard data={data} key={data.blogSl}/>
+                            )
                     }
                 </Row>
                 <div className="blog-info">
@@ -64,7 +68,7 @@ const Blogs = () => {
                     target="_blank"
                     rel="noreferrer"
                     className="btn-blog" 
-                    >Visit All My Blogs</a>
+                    >Visit All My Blogs <FontAwesomeIcon icon={faArrowRight} size="1x" color="steelBlue" /></a>
                 </div>
             </div>
         </div>
