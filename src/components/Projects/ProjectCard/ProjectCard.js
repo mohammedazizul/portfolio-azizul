@@ -10,14 +10,16 @@ const ProjectCard = (props) => {
     return (
         <Col>
             <Card>
-                <Card.Img variant="top" src={previewImage} />
+                <Card.Img variant="top" src={previewImage} style={{height:"200px", width:"auto"}}/>
                 <Card.Body>
                 <Card.Title>{prjName}</Card.Title>
                 <Card.Text>
                     {details}
                 </Card.Text>
-                <Card.Link href={liveLink}>Live Link</Card.Link>
-                <Card.Link href={repoLink}>Repo Link</Card.Link>
+                <Card.Link href={liveLink} target="_blank">Live Link</Card.Link>
+                {
+                    repoLink && <Card.Link href={repoLink} target="_blank">Repo Link</Card.Link>
+                }
                 </Card.Body>
             </Card>
         </Col>
