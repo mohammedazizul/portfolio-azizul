@@ -11,7 +11,7 @@
     font-size: 12px;
   }
   
-  button {
+  .emailButton {
     border: none;
     outline: 0;
     display: inline-block;
@@ -30,6 +30,6 @@
     color: black;
   }
   
-  button:hover, a:hover {
+  .emailButton:hover, a:hover {
     opacity: 0.7;
   }

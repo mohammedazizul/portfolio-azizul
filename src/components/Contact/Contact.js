@@ -46,7 +46,7 @@ const Contact = () => {
 
                   </div>
                   <p>
-                    <button>
+                    <button className="emailButton">
                       <a href="mailto:mohammedazizulhoquesheikh@gmail.com" >
                         <FontAwesomeIcon icon={faEnvelope} size="3x" color="white" />
                       </a>

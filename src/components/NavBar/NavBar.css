@@ -1,13 +1,13 @@
-.logoImage {
+/* .logoImage {
     margin-top: 0rem;
     width: 4rem;
     height: 4rem;
-}
+} */
 
 /* to handle responsiveness */
 @media(max-width: 768px) {
     .navbar-brand {
-        max-width: 7rem;
+        /* max-width: 7rem; */
     }
     .logoImage {
 
@@ -19,7 +19,12 @@
     z-index: 2;
 }
 
-.navLink {
+.logoImage {
+    max-width: 17.25rem;
+    height: 4rem;
+}
+
+/* .navLink {
     font-weight: 500;
     letter-spacing: .25rem;
     cursor: pointer;
@@ -28,14 +33,14 @@
     margin-right: 0.5rem;
     margin-left: 0.5rem;
     border-top: 0.1875rem solid rgba(255,255,255,0);
-}
+} */
 
-.navLink:hover, .navLink:focus {
+/* .navLink:hover, .navLink:focus {
     border-top: 0.1875rem solid steelblue;
-}
+} */
 
-.navbar-brand {
+/* .navbar-brand {
     max-width: 17.25rem;
     padding: 0 !important;
     height: 4rem;
-}
+} */
