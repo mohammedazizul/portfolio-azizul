@@ -1,11 +1,13 @@
+import './Contact.css';
 import React from 'react';
-import './Contact.css'
 // import emailjs from 'emailjs-com';
 import NavBar from '../NavBar/NavBar';
 import azizulImage from '../../images/azizulImage.png'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithubSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { Card, Col, Container, Row } from 'react-bootstrap';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithubSquare, faLinkedin, faWhatsappSquare } from '@fortawesome/free-brands-svg-icons';
+
 
 const Contact = () => {
     // function sendEmail(e) {
@@ -22,39 +24,44 @@ const Contact = () => {
       return (
         <div>
           <NavBar />
-          <div className="container">
-            <div className="row">
+          <Container>
+            <Row xs={1} md={2}>
               {/* PROFILE CARD  */}
-              <div className="col">
-                <div className="card">
-                  <img src={azizulImage} alt="azizul here" style={{width:"100%"}}/>
-                  <h4>Mohammed Azizul Hoque Sheikh</h4>
-                  <p className="title">Full Stack Developer | Programmer</p>
+              <Col>
+              <Card>
+                <Card.Img variant="top" src={azizulImage} alt="azizul here" style={{width:"100%"}} />
+                <Card.Body>
+                  <Card.Title>Mohammed Azizul Hoque Sheikh</Card.Title>
+                  <Card.Text>
+                  <p className="title">Full Stack Developer | Final Year Student at</p>
                   <p>University of Wollongong</p>
-                  {/* space for the logo */}
-                  <div style={{margin: "24px 0"}}>
-
-                    <a href="https://www.linkedin.com/in/mohammed-azizul-hoque-sheikh-2b5921210"
+                  </Card.Text>
+                </Card.Body>
+                <Card.Footer>
+                    <a href="https://www.linkedin.com/in/mohammedazizul/"
                     target="_blank" 
                     rel="noreferrer"
-                    ><FontAwesomeIcon icon={faLinkedin} size="3x" color="steelBlue"/></a> 
+                    ><FontAwesomeIcon icon={faLinkedin} size="3x" color="#0077b5"/></a> 
                     &nbsp;
                     <a href="https://github.com/mohammedazizul"
                     target="_blank" 
                     rel="noreferrer"
-                    ><FontAwesomeIcon icon={faGithubSquare} size="3x" color="black" /></a>  
+                    ><FontAwesomeIcon icon={faGithubSquare} size="3x" color="#333" /></a>  
+                    &nbsp;
+                    <a href="mailto:mohammedazizulhoquesheikh@gmail.com" >
+                      <FontAwesomeIcon icon={faEnvelope} size="3x" color="#B23121" />
+                    </a>
+                    &nbsp;
+                    <a href="https://wa.me/+601164334795"
+                    target="_blank" 
+                    rel="noreferrer"
+                    ><FontAwesomeIcon icon={faWhatsappSquare} size="3x" color="#25D366" /></a>  
+                </Card.Footer>
+              </Card>
+              </Col>
 
-                  </div>
-                  <p>
-                    <button className="emailButton">
-                      <a href="mailto:mohammedazizulhoquesheikh@gmail.com" >
-                        <FontAwesomeIcon icon={faEnvelope} size="3x" color="white" />
-                      </a>
-                    </button>
-                  </p>
-                </div>
-              </div>
               {/* right div  */}
+              <Col>
               <div className="col">
                 {/* send email via email js */}
                 {/* <form className="contact-form" onSubmit={sendEmail}>
@@ -71,10 +78,9 @@ const Contact = () => {
                   <input type="submit" value="Send" />
                 </form> */}
               </div>
-
-            </div>
-          </div>
-
+              </Col>
+            </Row>
+          </Container>
         </div>
       );
     };
