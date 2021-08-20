@@ -1,0 +1,82 @@
+[
+    {
+        "sl": 1,
+        "previewImage": "../../../images/projects-images/1-smartAssistanceHomePage.png",
+        "prjName": "Smart Assistance",
+        "liveLink": "https://smart-assistance-353ad.web.app/",
+        "repoLink": "https://github.com/mohammedazizul/smart-assistance-client",
+        "details": "It’s A MERN Stack web app that was developed on April-2021 with JavaScript, Bootstrap, React Router, Private Route, React Spring. Hosted in Heroku and Firebase Hosting."
+    },
+    {
+        "sl": 2,
+        "previewImage": "projectTwo",
+        "prjName": "Leaguepedia",
+        "liveLink": "https://objective-saha-e6d4fd.netlify.app/",
+        "repoLink": "https://github.com/mohammedazizul/leaguepedia",
+        "details": "A RESTful API call-based fully responsive web application developed on March-2021 with JavaScript, Bootstrap, React Js and live site hosted with Netlify."
+    },
+    {
+        "sl": 3,
+        "previewImage": "projectThree",
+        "prjName": "My Easy Mart",
+        "liveLink": "https://my-easy-mart.web.app/",
+        "repoLink": "https://github.com/mohammedazizul/my-easy-mart-client",
+        "details": "An e-commerce web application developed on April-2021 with JavaScript, Bootstrap, React.Js, React Router, Private Route, React Spring. Hosted in Heroku and Firebase Hosting."
+    },
+    {
+        "sl": 4,
+        "previewImage": "projectFour",
+        "prjName": "my-todo",
+        "liveLink": "https://my-todo-app-redux.netlify.app/",
+        "repoLink": "",
+        "details": "it's a react application using redux toolkit to organize the daily to-do"
+    },
+    {
+        "sl": 5,
+        "previewImage": "projectFive",
+        "prjName": "Task-Tracker",
+        "liveLink": "https://xenodochial-torvalds-411398.netlify.app/",
+        "repoLink": "https://github.com/azizsheq/react-task-tracker",
+        "details": "it's a simple responsive react application for keep track of your daily tasks"
+    },
+    {
+        "sl": 6,
+        "previewImage": "projectSix",
+        "prjName": "Hungry-Monster",
+        "liveLink": "https://azizsheq.github.io/Assignment-Five/",
+        "repoLink": "https://github.com/azizsheq/Assignment-Five",
+        "details": "A web application to display food information on basis of search from RESTful API"
+    },
+    {
+        "sl": 7,
+        "previewImage": "projectSeven",
+        "prjName": "PNADA-Commerce",
+        "liveLink": "https://azizsheq.github.io/Panda-Commerce-Bootstrap/",
+        "repoLink": "https://github.com/azizsheq/Panda-Commerce-Bootstrap",
+        "details": "A simple UI using Bootstrap for Commerce platform to visualize their products"
+    },
+    {
+        "sl": 8,
+        "previewImage": "projectEight",
+        "prjName": "Book Ocean Time",
+        "liveLink": "https://azizsheq.github.io/Assignment-Four/",
+        "repoLink": "https://github.com/azizsheq/Assignment-Four",
+        "details": "A simple UI using HTML,CSS and JavaScript for Booking Cruise"
+    },
+    {
+        "sl": 9,
+        "previewImage": "projectNine",
+        "prjName": "Penguin Fashion",
+        "liveLink": "https://github.com/azizsheq/Assignment-Two",
+        "repoLink": "https://azizsheq.github.io/Assignment-Two/",
+        "details": "A simple UI using HTML,CSS and JavaScript for displaying Commerce items"
+    },
+    {
+        "sl": 10,
+        "previewImage": "projectTen",
+        "prjName": "Travel Ninja",
+        "liveLink": "https://travel-ninja-team67.web.app/",
+        "repoLink": "https://github.com/mohammedazizul/travel-ninja",
+        "details": "Tourism based booking web application using REDUX and others"
+    }
+]
