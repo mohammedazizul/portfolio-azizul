@@ -1,13 +1,13 @@
-import React from 'react';
-import Particles from 'react-particles-js';
-import Header from '../Header/Header';
-import NavBar from '../NavBar/NavBar';
-import './Home.css'
+import React from "react";
+import Particles from "react-particles-js";
+import Header from "../Header/Header";
+import NavBar from "../NavBar/NavBar";
+import "./Home.css";
 
 const Home = () => {
-    return (
-        <>
-        <Particles 
+  return (
+    <>
+      <Particles
         className="particles-canvas"
         params={{
           particles: {
@@ -15,23 +15,23 @@ const Home = () => {
               value: 30,
               density: {
                 enable: true,
-                value_area: 900
-              }
+                value_area: 900,
+              },
             },
-            shape:{
+            shape: {
               type: "circle",
               stroke: {
                 width: 6,
-                color: "#4682B4"
-              }
-            }
-          }
+                color: "#4682B4",
+              },
+            },
+          },
         }}
-        />
-        <NavBar />
-        <Header />
-      </>
-    );
+      />
+      <NavBar />
+      <Header />
+    </>
+  );
 };
 
 export default Home;
