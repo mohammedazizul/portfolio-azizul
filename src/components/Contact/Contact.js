@@ -43,10 +43,8 @@ const Contact = () => {
                 <Card.Title>Mohammed Azizul Hoque Sheikh</Card.Title>
                 <Card.Text>
                   <span className="title">
-                    Full Stack Developer | Final Year Student at
+                    Full Stack Developer
                   </span>
-                  <br />
-                  <span>University of Wollongong</span>
                 </Card.Text>
               </Card.Body>
 
