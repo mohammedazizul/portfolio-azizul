@@ -6,6 +6,7 @@ import ProjectCard from './ProjectCard/ProjectCard';
 import { projectData } from '../../data/projectData';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithubSquare } from '@fortawesome/free-brands-svg-icons';
+import Footer from '../Footer/Footer';
 
 const Projects = () => {
 
@@ -19,21 +20,22 @@ const Projects = () => {
                     {
                         projectData.map(
                             data => <ProjectCard key={data.sl} data={data} />
-                            )
+                        )
                     }
                 </Row>
                 {/* button to visit github profile */}
                 <div className="blog-info">
-                    <a 
-                    href="https://github.com/mohammedazizul"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="btn-project" 
+                    <a
+                        href="https://github.com/mohammedazizul"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="btn-project"
                     >
                         click to visit profile in <FontAwesomeIcon icon={faGithubSquare} size="lg" color="steelblue" />
                     </a>
                 </div>
             </div>
+            <Footer />
         </>
     );
 };

@@ -1,36 +1,66 @@
-# Project (Full Stack) : **Azizul's Portfolio**
+# Web Portfolio of Mohammed Azizul
 
-## **Netlify Live Hosting URL** : https://azizul.netlify.app/
+A lightweight Single Page web app for web portfolio.
 
-![project home page screenshot](https://github.com/mohammedazizul/portfolio-azizul/blob/master/screenshots/homePage.png)
+## Table of Contents
 
+- [Overview](#overview)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Configuration](#configuration)
+- [Folder Structure](#folder-structure)
 
-## Built with
-* HTML
-* CSS
-* JavaScript
+## Overview
 
+A lightweight single page web app for web portfolio.
 
-## User Interface (UI) built with
-* React
- * React Router
- * React Hooks
- * React Particles Js
- * React Email Js 
- * React Toastify 
- * React Hook Form
- * React Typed
-* Bootstrap
+## Prerequisites
 
+Before running this project, ensure you have the following installed:
 
-## Responsive Design and Necessary Form Validation
-This project responsiveness built with react, bootstrap and some basic css(media query) and html. As a framework I am using react, bootstrap to develope the responsive design. Responsiveness available for below 768px
+- Node.js and npm - [Download and Install Node.js](https://nodejs.org/)
 
+## Installation
 
-### Additional information for icon
-* font-awesome is being used for the icon
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/mohammedazizul/portfolio-azizul
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd portfolio-azizul
+   ```
+3. Install server dependencies:
+   ```bash
+   npm install
+   ```
 
+## Usage
 
-## Contact Information -
-#### **Name** - Mohammed Azizul Hoque Sheikh
-#### **Email** - mohammedazizulhoquesheikh@gmail.com
+1. Start the server and client concurrently:
+   ```bash
+   npm start
+   ```
+2. Access the application in your browser at http://localhost:3000
+
+## Configuration
+
+1. Environment Variables: Configure your environment variables in a .env file in the root directory. Ensure that sensitive information such as API keys, database credentials, etc., are not committed to version control.
+
+## Folder Structure
+
+    portfolio-azizul/
+    ├── README.md           # Project README file
+    ├── package-lock.json   #
+    ├── package.json        #
+    ├── public/             # Public assets
+    └── src/                # Source files
+         ├── assets/        # Client assets/images
+         ├── components/    # Project components
+         ├── data/          # Static data
+         ├── images/        # Project images
+         ├── pages/         # Project pages/routes
+         ├── App.css/       # Client root style sheet
+         ├── App.js/        # Client root routes
+         └── index.js/      # Client root

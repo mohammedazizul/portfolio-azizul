@@ -3,6 +3,7 @@ import Particles from "react-particles-js";
 import Header from "../Header/Header";
 import NavBar from "../NavBar/NavBar";
 import "./Home.css";
+import Footer from "../Footer/Footer";
 
 const Home = () => {
   return (
@@ -30,6 +31,7 @@ const Home = () => {
       />
       <NavBar />
       <Header />
+      <Footer />
     </>
   );
 };
