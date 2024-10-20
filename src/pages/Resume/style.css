@@ -1,0 +1,27 @@
+.resume-main-div {
+    background-color:black;
+}
+.btn-resume-download {
+    border: 1px solid steelblue;
+    text-transform: uppercase;
+    border-radius: 0;
+    padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+    color: steelblue;
+    margin: 2rem;
+    z-index: +1;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.btn-resume-download:hover {
+    text-decoration: underline;
+    color: steelblue;
+    transition: .2s ease-in-out;
+}
+
+.footer-div {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}

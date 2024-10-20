@@ -11,6 +11,7 @@ import {
   faLinkedin,
   faWhatsappSquare,
 } from "@fortawesome/free-brands-svg-icons";
+import Footer from "../Footer/Footer";
 
 const Contact = () => {
   // function sendEmail(e) {
@@ -117,6 +118,7 @@ const Contact = () => {
           </Col>
         </Row>
       </Container>
+      <Footer />
     </div>
   );
 };
