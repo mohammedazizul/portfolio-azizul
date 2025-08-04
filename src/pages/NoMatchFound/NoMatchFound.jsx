@@ -1,13 +1,11 @@
 import "./style.css";
 import React from "react";
 import sad from "../../assets/emojis/sad-emoji.png";
-import Footer from "../../components/Footer/Footer";
-import NavBar from "../../components/NavBar/NavBar";
+import Footer from "../../components/Footer/Footer.jsx";
 
 const NoMatchFound = () => {
   return (
     <div className="">
-      <NavBar />
       <div className="noMatchDiv">
         <h2>We are Sorry</h2>
         <img src={sad} alt="sad emoji icon" />

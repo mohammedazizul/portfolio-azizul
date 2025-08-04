@@ -1,52 +1,50 @@
 {
   "name": "portfolio-azizul",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
-  "dependencies": {
-    "@babel/core": "^7.25.8",
-    "@fortawesome/fontawesome-svg-core": "^1.2.35",
-    "@fortawesome/free-brands-svg-icons": "^5.15.3",
-    "@fortawesome/free-regular-svg-icons": "^5.15.3",
-    "@fortawesome/free-solid-svg-icons": "^5.15.3",
-    "@fortawesome/react-fontawesome": "^0.1.14",
-    "@testing-library/jest-dom": "^5.12.0",
-    "@testing-library/react": "^11.2.6",
-    "@testing-library/user-event": "^12.8.3",
-    "babel-preset-react-app": "^10.0.1",
-    "bootstrap": "^5.3.3",
-    "emailjs-com": "^2.6.4",
-    "react": "^18.3.1",
-    "react-bootstrap": "^2.0.0-beta.4",
-    "react-dom": "^18.3.1",
-    "react-ga": "^3.3.1",
-    "react-particles-js": "^3.4.1",
-    "react-router-dom": "^6.27.0",
-    "react-scripts": "4.0.3",
-    "react-typed": "^1.2.0",
-    "web-vitals": "^1.1.1"
+  "type": "module",
+  "description": "Azizul's Professional Portfolio - Web Developer and Full Stack Developer",
+  "keywords": [
+    "portfolio",
+    "react",
+    "vite",
+    "web developer",
+    "full stack"
+  ],
+  "author": "Mohammed Azizul Hoque Sheikh",
+  "license": "MIT",
+  "homepage": "https://azizul-portfolio.netlify.app",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-brands-svg-icons": "^6.5.1",
+    "@fortawesome/free-regular-svg-icons": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "bootstrap": "^5.3.2",
+    "emailjs-com": "^3.2.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.10.1",
+    "react-dom": "^18.2.0",
+    "react-ga": "^3.3.1",
+    "react-router-dom": "^6.22.0",
+    "react-simple-typewriter": "^5.0.1",
+    "react-tsparticles": "^2.9.3",
+    "tsparticles": "^2.9.3"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "devDependencies": {
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
+    "@vitejs/plugin-react": "^4.2.1",
+    "terser": "^5.43.1",
+    "vite": "^4.5.2"
   }
 }
