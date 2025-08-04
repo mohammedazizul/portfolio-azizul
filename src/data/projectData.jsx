@@ -1,5 +1,4 @@
 import p1 from "../images/projects-images/1-smartAssistanceHomePage.png";
-import p2 from "../images/projects-images/2-leaguepediaHomePage.PNG";
 import p3 from "../images/projects-images/3-myEasyMartHomePage.png";
 import p4 from "../images/projects-images/4-myTodo.png";
 import p5 from "../images/projects-images/5-react-task-tracker.png";
@@ -10,6 +9,7 @@ import p9 from "../images/projects-images/9-penguin-fashion.png";
 import p10 from "../images/projects-images/10-travel-ninja.png";
 import p11 from "../images/projects-images/11-INTIAlumniWebApp.png";
 import p12 from "../images/projects-images/12-Maps.png";
+import p13 from "../images/projects-images/13-Forty-Rabban.png";
 
 export const projectData = [
     {
@@ -18,7 +18,7 @@ export const projectData = [
         prjName: "INTI Alumni Web App",
         liveLink: "https://inti-alumni-web.netlify.app/",
         repoLink: "https://github.com/mohammedazizul/",
-        details: " Built a full-stack web app for sharing events, news, success stories, and alumni registration with CMS dashboard for the admin to add and remove web components"
+        details: "Built a full-stack web app for sharing events, news, success stories, and alumni registration with CMS dashboard for the admin to add and remove web components"
     },
     {
         sl: 2,
@@ -34,11 +34,11 @@ export const projectData = [
         prjName: "Smart Assistance",
         liveLink: "https://smart-assistance-353ad.web.app/",
         repoLink: "https://github.com/mohammedazizul/smart-assistance-client",
-        details: "It’s A MERN Stack web app that was developed on April-2021 with JavaScript, Bootstrap, React Router, Private Route, React Spring. Hosted in Heroku and Firebase Hosting."
+        details: "It's A MERN Stack web app that was developed on April-2021 with JavaScript, Bootstrap, React Router, Private Route, React Spring. Hosted in Heroku and Firebase Hosting."
     },
     {
         sl: 4,
-        previewImage: p2,
+        previewImage: p10,
         prjName: "Leaguepedia",
         liveLink: "https://objective-saha-e6d4fd.netlify.app/",
         repoLink: "https://github.com/mohammedazizul/leaguepedia",
@@ -107,6 +107,14 @@ export const projectData = [
         liveLink: "https://travel-ninja-team67.web.app/",
         repoLink: "https://github.com/mohammedazizul/travel-ninja",
         details: "Tourism based booking web application using REDUX and others"
+    },
+    {
+        sl: 13,
+        previewImage: p13,
+        prjName: "Forty Rabban",
+        liveLink: "https://forty-rabban.vercel.app/",
+        repoLink: "https://github.com/mohammedazizul/forty-rabban.git",
+        details: "A comprehensive collection of 40 beautiful 'Rabbana' (Our Lord) duas from the Holy Quran with Arabic text, English translations, and beautiful typography. Perfect for daily prayers and spiritual reflection."
     }
 ];
 
