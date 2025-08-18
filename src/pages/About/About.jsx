@@ -190,7 +190,7 @@ const About = () => {
               </p>
               <div className="about-actions">
                 <Button
-                  href="https://docs.google.com/document/d/169spr9enTbbGfKGepvM5dbU4H6EE94buBoFEhAkFgTs/edit?usp=sharing"
+                  href="https://docs.google.com/document/d/1mnEXPmPDQi7tnYKBkPAL98V3DX01tutG/edit?usp=sharing&ouid=110347107158718939028&rtpof=true&sd=true"
                   target="_blank"
                   rel="noopener noreferrer"
                   variant="outline-primary"
@@ -201,7 +201,7 @@ const About = () => {
                   View Resume
                 </Button>
                 <Button
-                  href="https://drive.google.com/file/d/1HGyNSa4U_5mshxbhJAO6zxQ2ppdb0H6_/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1m51QFBR5P13T71vjZFKyX2CJquiQ3Ju3/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                   variant="primary"
